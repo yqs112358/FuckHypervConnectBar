@@ -1,8 +1,10 @@
 # FuckHypervConnectBar
 
-> Hide annoying connect-bar at the top of of HyperV VM window when in full-screen mode
-
 ![](assets/image.png)
+
+The `Remote Desktop Connect` app provides us with an option to hide connect-bar forever, but Hyperv's `vmconnect.exe` does not!  This horrible ugly unclosable floating bar is annoying!
+
+**Let's fuck it.**
 
 ## Usage
 
