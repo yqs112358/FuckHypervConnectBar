@@ -140,6 +140,7 @@
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalDependencies>$(SolutionDir)detours\lib\detours.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)FuckHypervConnectBar$(TargetExt)</OutputFile>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>

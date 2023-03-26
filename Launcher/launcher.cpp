@@ -107,9 +107,9 @@ int main()
     cout << "[INFO] Inject DLL \"" << dllPathStr << "\" into vmconnect.exe..." << endl;
 
     if (InjectDllToProcess(vmconnectPid, dllPathStr.c_str()))
-        cout << endl << "[INFO] Injected." << endl;
+        cout << endl << "[INFO] Success." << endl << endl;
     else
-        cout << endl << "[ERROR] Failed. Error code: " << GetLastError() << endl;
+        cout << endl << "[ERROR] Failed. Error code: " << GetLastError() << endl << endl;
 	system("pause");
 	return 0;
 }
